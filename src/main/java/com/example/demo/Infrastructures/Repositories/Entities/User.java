@@ -22,4 +22,7 @@ public class User {
     private String name;
 
     private String password;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private UserInfo userInfo;
 }
