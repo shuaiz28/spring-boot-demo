@@ -4,6 +4,8 @@ spring:
     url: jdbc:mysql://localhost:3306/spring_boot_flyway
     username: root
     password: root
+  profiles:
+    active: test
 
 greeting:
   name: Leo
