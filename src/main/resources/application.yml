@@ -9,3 +9,11 @@ greeting:
   name: Leo
   message: Hello
   info: ${greeting.message} from ${greeting.name}
+
+feature:
+  toggleOn: true
+  featureList:
+  - name: Sms
+    enabled: true
+  - name: Wechat
+    enabled: false
