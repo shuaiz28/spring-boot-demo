@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.Set;
 
 @Data
 @Builder
@@ -20,4 +21,5 @@ public class UserDto {
     private UserInfoDto userInfo;
     @JsonManagedReference
     private List<AddressDto> addresses;
+    private Set<TopicDto> topics;
 }
